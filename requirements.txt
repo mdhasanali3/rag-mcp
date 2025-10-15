@@ -1,0 +1,22 @@
+# Core dependencies
+raganything>=1.0.0
+lightrag>=0.1.0
+mcp>=0.1.0
+openai>=1.0.0
+
+# Configuration and settings
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# Async and I/O
+aiofiles>=23.0.0
+httpx>=0.24.0
+
+# Utilities
+tenacity>=8.0.0
+rich>=13.0.0
+
+# Optional: Production dependencies
+uvloop>=0.17.0; sys_platform != 'win32'
+orjson>=3.9.0
